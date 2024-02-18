@@ -309,6 +309,16 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
             icon="mdi:thermometer-lines",
         ),
     ),
+    # White Noise Machine
+    # Not Documented
+    "bzyd": (
+        NumberEntityDescription(
+            key=DPCode.VOLUME_SET,
+            translation_key="volume",
+            icon="mdi:volume-high",
+            entity_category=EntityCategory.CONFIG,
+        ),
+    ),
 }
 
 

@@ -378,6 +378,9 @@ LIGHTS["cz"] = LIGHTS["kg"]
 # https://developer.tuya.com/en/docs/iot/s?id=K9gf7o5prgf7s
 LIGHTS["pc"] = LIGHTS["kg"]
 
+# Noise Machine
+# Undocumented
+LIGHTS["bzyd"] = LIGHTS["fwd"]
 
 @dataclass
 class ColorData:
